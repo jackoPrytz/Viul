@@ -8,7 +8,7 @@
     <link rel="icon" href="{{ Vite::asset('resources/images/icon-viul.png') }}" type="image/png">
 </head>
 
-<script src="https://cdn.tailwindcss.com"></script>
+{{-- <script src="https://cdn.tailwindcss.com"></script> --}}
 <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
 
 <body>
