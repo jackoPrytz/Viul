@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viul</title>
     <link rel="icon" href="{{ Vite::asset('resources/images/icon-viul.png') }}" type="image/png">
+    <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
+    @vite('resources/css/app.css')
+    @livewireStyles
 </head>
 
 {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
-<script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
+
 
 <body>
     <header>
