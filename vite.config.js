@@ -23,11 +23,9 @@ export default defineConfig({
         outDir: 'public/build',
         rollupOptions: {
             output: {
-                assetFileNames: `assets/[name].[hash].[ext]`,
-                chunkFileNames: `assets/[name].[hash].js`,
-                entryFileNames: `[name].[hash].js`,
-                // Ensure manifest.json is placed in the root of the build directory
-                manifestFile: 'manifest.json'
+                output: {
+                    manifestFile: 'manifest.json'
+                }
             }
         }
     },
