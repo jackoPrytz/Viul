@@ -3,6 +3,7 @@ import laravel from 'laravel-vite-plugin';
 import { resolve } from 'path';
 import tailwindcss from 'tailwindcss';
 
+
 export default defineConfig({
     plugins: [
         laravel({
@@ -19,6 +20,15 @@ export default defineConfig({
     },
     build: {
         manifest: true,
-        outDir: 'public/.vite',
+        outDir: 'public/build',
+        rollupOptions: {
+            output: {
+                assetFileNames: `assets/[name].[hash].[ext]`,
+                chunkFileNames: `assets/[name].[hash].js`,
+                entryFileNames: `[name].[hash].js`,
+                // Ensure manifest.json is placed in the root of the build directory
+                manifestFile: 'manifest.json'
+            }
+        }
     },
 });
