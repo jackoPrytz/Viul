@@ -1,0 +1,41 @@
+{
+  "resources/assets/images/hero-image.png": {
+    "file": "assets/hero-image-BsZjj_zx.png",
+    "src": "resources/assets/images/hero-image.png"
+  },
+  "resources/assets/images/icon-viul.png": {
+    "file": "assets/icon-viul-BwyPzMh6.png",
+    "src": "resources/assets/images/icon-viul.png"
+  },
+  "resources/assets/images/nosotros.png": {
+    "file": "assets/nosotros-C3j9w4RO.png",
+    "src": "resources/assets/images/nosotros.png"
+  },
+  "resources/assets/images/product-one.png": {
+    "file": "assets/product-one-CwzvG2XJ.png",
+    "src": "resources/assets/images/product-one.png"
+  },
+  "resources/assets/images/product-two.png": {
+    "file": "assets/product-two-D8KXSVIM.png",
+    "src": "resources/assets/images/product-two.png"
+  },
+  "resources/assets/images/viul-logo.png": {
+    "file": "assets/viul-logo-yXd7XHIA.png",
+    "src": "resources/assets/images/viul-logo.png"
+  },
+  "resources/assets/images/whatsapp-logo.png": {
+    "file": "assets/whatsapp-logo-ClhD1YX-.png",
+    "src": "resources/assets/images/whatsapp-logo.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-CLWZeS17.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-DkDdL2UM.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}

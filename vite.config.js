@@ -19,14 +19,6 @@ export default defineConfig({
         },
     },
     build: {
-        manifest: true,
         outDir: 'public/build',
-        rollupOptions: {
-            output: {
-                output: {
-                    manifestFile: 'manifest.json'
-                }
-            }
-        }
     },
 });
