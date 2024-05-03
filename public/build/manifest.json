@@ -1,4 +1,8 @@
 {
+  "resources/assets/images/about-us.png": {
+    "file": "assets/about-us-BguuOLf0.png",
+    "src": "resources/assets/images/about-us.png"
+  },
   "resources/assets/images/hero-image.png": {
     "file": "assets/hero-image-BsZjj_zx.png",
     "src": "resources/assets/images/hero-image.png"
@@ -32,7 +36,7 @@
     "src": "resources/assets/images/whatsapp.png"
   },
   "resources/css/app.css": {
-    "file": "assets/app-BROGcNb9.css",
+    "file": "assets/app-Wu2ngx8w.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
