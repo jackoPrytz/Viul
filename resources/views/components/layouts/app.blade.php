@@ -79,7 +79,7 @@
 				</div>
 			</div>
 		</nav>
-		<div style="position: fixed; top: 10px; right: 20px; z-index: 1000;" class="whatsapp-icon">
+		<div style="position: fixed; top: 0px; right: 20px; z-index: 1000;" class="whatsapp-icon">
 			<a href="https://wa.me/5491166342801" target="_blank">
 				<img src="{{ Vite::asset('resources/assets/images/whatsapp-logo.png') }}" alt="WhatsApp"
 					style="width: 240px; height: auto;">

@@ -24,11 +24,15 @@
     "src": "resources/assets/images/viul-logo.png"
   },
   "resources/assets/images/whatsapp-logo.png": {
-    "file": "assets/whatsapp-logo-ClhD1YX-.png",
+    "file": "assets/whatsapp-logo-CFY72Lfo.png",
     "src": "resources/assets/images/whatsapp-logo.png"
   },
+  "resources/assets/images/whatsapp.png": {
+    "file": "assets/whatsapp-DqLqg6PZ.png",
+    "src": "resources/assets/images/whatsapp.png"
+  },
   "resources/css/app.css": {
-    "file": "assets/app-CLWZeS17.css",
+    "file": "assets/app-BROGcNb9.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
