@@ -1,7 +1,7 @@
 <div>
 	<div>
 		<section class="w-full bg-cover bg-center py-48"
-			style="background-image: url('{{ Vite::asset('resources/assets/images/Nosotros.png') }}');">
+			style="background-image: url('{{ Vite::asset('resources/assets/images/nosotros.png') }}');">
 			<div class="container mx-auto text-center text-white">
 				<h1 class="text-5xl text-slate-100 font-medium mb-6">Transformando techos con excelencia: </h1>
 				<p class="text-xl mb-12 mx-10">¡Tu elección
