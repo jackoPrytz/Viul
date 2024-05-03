@@ -106,21 +106,21 @@
                     <ul class="list-none footer-links">
                         <li class="mb-2">
                             <a href="#"
-                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Membrana
+                                class="border-b border-solid border-transparent hover:border-green-600 hover:text-green-600">Membrana
                                 una</a>
                         </li>
                         <li class="mb-2">
                             <a href="#"
-                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Membrana
+                                class="border-b border-solid border-transparent hover:border-green-600 hover:text-green-600">Membrana
                                 dos</a>
                         </li>
                         <li class="mb-2">
                             <a href="#"
-                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Pintura</a>
+                                class="border-b border-solid border-transparent hover:border-green-600 hover:text-green-600">Pintura</a>
                         </li>
                         <li class="mb-2">
                             <a href="#"
-                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Pegamento</a>
+                                class="border-b border-solid border-transparent hover:border-green-600 hover:text-green-600">Pegamento</a>
                         </li>
 
                     </ul>
@@ -130,20 +130,20 @@
                     <ul class="list-none footer-links">
                         <li class="mb-2">
                             <a href="#"
-                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Instalación
+                                class="border-b border-solid border-transparent hover:border-green-600 hover:text-green-600">Instalación
                                 de membranas</a>
                         </li>
                         <li class="mb-2">
                             <a href="#"
-                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Pintura</a>
+                                class="border-b border-solid border-transparent hover:border-green-600 hover:text-green-600">Pintura</a>
                         </li>
                         <li class="mb-2">
                             <a href="#"
-                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Aberturas</a>
+                                class="border-b border-solid border-transparent hover:border-green-600 hover:text-green-600">Aberturas</a>
                         </li>
                         <li class="mb-2">
                             <a href="#"
-                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Final
+                                class="border-b border-solid border-transparent hover:border-green-600 hover:text-green-600">Final
                                 resource</a>
                         </li>
                     </ul>
@@ -153,20 +153,17 @@
                     <ul class="list-none footer-links">
                         <li class="mb-2">
                             <a href="#"
-                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Equipo</a>
+                                class="border-b border-solid border-transparent hover:border-green-600 hover:text-green-600">Equipo</a>
                         </li>
                         <li class="mb-2">
                             <a href="#"
-                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Obras</a>
+                                class="border-b border-solid border-transparent hover:border-green-600 hover:text-green-600">Obras</a>
                         </li>
                         <li class="mb-2">
                             <a href="#"
-                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Testomoniales</a>
+                                class="border-b border-solid border-transparent hover:border-green-600 hover:text-green-600">Testomoniales</a>
                         </li>
-                        <li class="mb-2">
-                            <a href="#"
-                                class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Terms</a>
-                        </li>
+
                     </ul>
                 </div>
 
