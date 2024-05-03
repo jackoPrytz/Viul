@@ -7,6 +7,21 @@
     <title>Viul</title>
     <link rel="icon" href="{{ Vite::asset('resources/images/icon-viul.png') }}" type="image/png">
     <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
+    <style>
+        @media (max-width: 1024px) {
+
+            /* Adjust this value based on your large breakpoint */
+            .whatsapp-icon {
+                top: auto !important;
+                /* Override any previous top value */
+                bottom: 10px !important;
+                /* Position it 10px from the bottom */
+                width: 192px;
+                /* 80% of the original 240px width */
+                height: auto;
+            }
+        }
+    </style>
     @vite('resources/css/app.css')
     @livewireStyles
 </head>
@@ -22,8 +37,8 @@
                     <img src="{{ Vite::asset('resources/images/viul-logo.png') }}" class="h-24" alt="Viul Logo" />
                 </a>
                 <div class="flex items-center lg:order-2">
-                    <a href="{{ route('home') }}"
-                        class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-green-800">Whatsapp</a>
+                    {{-- <a href="{{ route('home') }}"
+                        class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-green-800">Whatsapp</a> --}}
                     <button data-collapse-toggle="mobile-menu-2" type="button"
                         class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                         aria-controls="mobile-menu-2" aria-expanded="false">
@@ -57,7 +72,7 @@
                                 class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Productos</a>
                         </li>
                         <li>
-                            <a href="#"
+                            <a href="{{ route('servicios') }}"
                                 class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Servicios</a>
                         </li>
 
@@ -65,6 +80,12 @@
                 </div>
             </div>
         </nav>
+        <div style="position: fixed; top: 10px; right: 20px; z-index: 1000;" class="whatsapp-icon">
+            <a href="https://wa.me/5491166342801" target="_blank">
+                <img src="{{ Vite::asset('resources/images/whatsapp-logo.png') }}" alt="WhatsApp"
+                    style="width: 240px; height: auto;">
+            </a>
+        </div>
     </header>
 
     {{ $slot }}
