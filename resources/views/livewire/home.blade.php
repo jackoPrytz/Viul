@@ -30,7 +30,7 @@
             </h1>
         </div>
     </div>
-    <div class="md:w-6/10 w-2/3 mx-auto">
+    <div class="md:w-2/3 w-5/6 mx-auto">
         <div class="mx-auto my-10 bg-gray-100 p-5 rounded-md shadow-sm">
             <div class="text-center">
                 <h1 class="my-6 text-3xl font-semibold text-gray-700 ">Contáctanos</h1>
