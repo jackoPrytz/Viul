@@ -246,6 +246,10 @@
                     ayudarte a
                     proteger y embellecer tu techo.
                 </p>
+                <div class="flex mt-10 justify-center">
+                    <a href="{{ route('contacto') }}"
+                        class="text-green-700 bg-white hover:bg-green-800 hover:text-white focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none">Contáctenos</a>
+                </div>
             </div>
         </section>
 
