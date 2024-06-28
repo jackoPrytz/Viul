@@ -336,7 +336,6 @@
                                 Protección hidrófuga y anticorrosiva efectiva.
                             </div>
                         </div>
-
                     </div>
                     <a href="#" wire:navigate.hover
                         class="group mt-4 flex items-center rounded-lg justify-center border border-green-600 px-5 py-2.5 text-base font-medium text-green-600 duration-150 ease-in-out hover:bg-green-800 hover:text-white sm:mt-12">
@@ -346,7 +345,7 @@
             </div>
         </div>
     </section>
-    <div class="md:w-2/3 w-5/6 mx-auto">
+    <div class="md:w-6/10 w-2/3 mx-auto">
         <div class="mx-auto my-10 bg-gray-100 p-5 rounded-md shadow-sm">
             <div class="text-center">
                 <h1 class="my-6 text-3xl font-semibold text-gray-700 ">Contáctanos</h1>
@@ -356,20 +355,20 @@
                 <div>
                     <div class="mb-6">
                         <label for="name" class="block mb-2 text-sm text-gray-600 ">Nombre</label>
-                        <input type="text" name="name" id="name" placeholder="John Doe" required
+                        <input type="text" name="name" id="name" placeholder="Juan Perez" required
                             class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-vinoflow-500" />
                     </div>
                     <div class="mb-6">
                         <label for="email" class="block mb-2 text-sm text-gray-600">Mail
                         </label>
-                        <input type="text" name="email" id="email" placeholder="you@company.com" required
+                        <input type="text" name="email" id="email" placeholder="tu@empresa.com" required
                             class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-vinoflow-500" />
                     </div>
                     <div class="mb-6">
                         <label for="message" class="block mb-2 text-sm text-gray-600">Tu
                             Mensaje</label>
 
-                        <textarea rows="7" name="message" id="message" placeholder="Your Message"
+                        <textarea rows="7" name="message" id="message" placeholder="tu consulta"
                             class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-green-100 focus:border-green-600"
                             required></textarea>
                     </div>
@@ -377,8 +376,8 @@
                         {{-- @if (!$messageSent) --}}
                         <button wire:click="sendEmail" wire:loading.attr="disabled" wire:target="sendEmail"
                             class="w-full px-3 py-4 text-white bg-green-600 rounded-md focus:bg-green-700 focus:outline-none">
-                            <span wire:loading.remove wire:target="sendEmail">Mandar Mensaje</span>
-                            <span wire:loading wire:target="sendEmail">Sending...</span>
+                            <span wire:loading.remove wire:target="sendEmail">Enviar Mensaje</span>
+                            <span wire:loading wire:target="sendEmail">Manando...</span>
                         </button>
                         {{-- @else
                             <div>Thanks for your message! We'll be in touch soon.</div>
