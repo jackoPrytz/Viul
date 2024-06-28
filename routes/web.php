@@ -1,12 +1,12 @@
 <?php
 
+use App\Livewire\Contacto;
 use App\Livewire\Home;
-use App\Livewire\Nosotros;
 use App\Livewire\Productos;
 use App\Livewire\Servicios;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/nosotros', Nosotros::class)->name('nosotros');
+Route::get('/contacto', Contacto::class)->name('contacto');
 
 Route::get('/', Home::class)->name('home');
 

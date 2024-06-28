@@ -3,9 +3,17 @@
     "file": "assets/about-us-BguuOLf0.png",
     "src": "resources/assets/images/about-us.png"
   },
+  "resources/assets/images/hero-contacto.png": {
+    "file": "assets/hero-contacto-C0vbdowD.png",
+    "src": "resources/assets/images/hero-contacto.png"
+  },
   "resources/assets/images/hero-image.png": {
     "file": "assets/hero-image-BsZjj_zx.png",
     "src": "resources/assets/images/hero-image.png"
+  },
+  "resources/assets/images/hero-servicios.png": {
+    "file": "assets/hero-servicios-B1qyDx9T.png",
+    "src": "resources/assets/images/hero-servicios.png"
   },
   "resources/assets/images/icon-viul.png": {
     "file": "assets/icon-viul-BwyPzMh6.png",
@@ -15,9 +23,17 @@
     "file": "assets/nosotros-C3j9w4RO.png",
     "src": "resources/assets/images/nosotros.png"
   },
+  "resources/assets/images/product-four.png": {
+    "file": "assets/product-four-CE1unlUE.png",
+    "src": "resources/assets/images/product-four.png"
+  },
   "resources/assets/images/product-one.png": {
     "file": "assets/product-one-CwzvG2XJ.png",
     "src": "resources/assets/images/product-one.png"
+  },
+  "resources/assets/images/product-three.png": {
+    "file": "assets/product-three-eqwnRIU-.png",
+    "src": "resources/assets/images/product-three.png"
   },
   "resources/assets/images/product-two.png": {
     "file": "assets/product-two-D8KXSVIM.png",
@@ -36,7 +52,7 @@
     "src": "resources/assets/images/whatsapp.png"
   },
   "resources/css/app.css": {
-    "file": "assets/app-CFpPfFv5.css",
+    "file": "assets/app-DbiL_z4L.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
